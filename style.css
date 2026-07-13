@@ -1,0 +1,23 @@
+#slidev-goto-dialog .autocomplete-list {
+  display: none;
+}
+
+#slidev-goto-dialog:not(.-top-20) .autocomplete-list {
+  display: block;
+}
+
+.col-left.prompt-cols-center .col-content,
+.col-right.prompt-cols-center .col-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-table table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.memory-table th:first-child,
+.memory-table td:first-child {
+  width: 9.5rem;
+}
