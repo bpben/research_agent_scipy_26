@@ -494,12 +494,15 @@ backgroundSize: contain
 # Ethics - Is the output intellectually honest?
 
 - Dominant viewpoints - Historical biases in research and in text corpora
-  - Reddit - 2/3rds male, >50% in US
-  - Africa + South America + Oceania = 5% of citations
+  - Reddit - 2/3rds male, >50% in US<sup>1</sup>
+  - Africa + South America + Oceania = 5% of citations<sup>2</sup>
 - Plagiarism - Are references properly cited?
-  - CNET discontinuing use of AI for generating content
-  - CNN lawsuit against Perplexity
 - Transparency - How, exactly, does it work?
+
+<div class="abs-bl m-4 text-xs opacity-60 max-w-[48%] leading-snug">
+<sup>1</sup> Duarte, Fabio. “Reddit User Age, Gender, & Demographics (2025).” *Exploding Topics*, 23 June 2025, https://explodingtopics.com/blog/reddit-users.<br>
+<sup>2</sup> Pan, Raj Kumar, Kimmo Kaski, and Santo Fortunato. “World Citation and Collaboration Networks: Uncovering the Role of Geography in Science.” *Scientific Reports*, vol. 2, article 902, 2012, https://doi.org/10.1038/srep00902.
+</div>
 
 ::caption::
 
@@ -518,3 +521,33 @@ Statista. "Where AI Gets Its Info: Top Sources 2025." Statista, 2025.
 | Security | Least privilege, sandboxing, verification | NIST AI profile, CISA+UK guidance |
 | Reliability | pass ^ k, groundedness | HELM, tau-bench |
 | Ethics | System cards, community involvement | Aequitas project, BBQ benchmark |
+
+---
+layout: two-cols-header
+layoutClass: gap-4
+class: text-sm leading-tight
+---
+
+# Thank you!
+
+::left::
+
+<div class="h-full min-h-0 flex flex-col gap-3 items-center text-center">
+<img src="/images/slides/ben.png" alt="Ben Batorsky" class="max-h-[28vh] w-auto max-w-full object-contain shrink-0" />
+
+### Ben Batorsky
+
+- [bpben.github.io/](https://bpben.github.io/)
+
+</div>
+
+::right::
+
+<div class="h-full min-h-0 flex flex-col gap-3 items-center text-center">
+<img src="/images/slides/headshot.png" alt="Eric Ma" class="max-h-[28vh] w-auto max-w-full object-contain shrink-0" />
+
+### Eric Ma
+
+- [ericmjl.github.io](https://ericmjl.github.io/blog/)
+</div>
+
