@@ -1,4 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Building Deep Research Agents Workshop slides
+
+See the workshop materials at [https://github.com/ericmjl/build-deep-research-agent](https://github.com/ericmjl/build-deep-research-agent).
 
 To start the slide show:
 
